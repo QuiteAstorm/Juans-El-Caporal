@@ -161,74 +161,7 @@ class Appa extends Component {
             <div><button type="button" onClick={() => this.setState({ selectedItem: null })}>Back to Appetizers</button></div>
           </section>
         )}
-        <Container className='ccontainer'>
-          <div className='topDiv'>
-            <div className='name'>
-            <Row>
-              <Col sm={2} ><h4 className='name' >Super Nachos</h4></Col>
-              <Col sm={8} ><h4 className='descript'>Corn tortilla chips with a choice of meat (chicken, beef, or shreded beef), beans, melted cheese, chopped tomatoes, onion, guacamole, and sour cream.</h4></Col>
-              <Col sm={2} ><h4 className='price'>$9.75</h4></Col>
-            </Row>
-          </div></div>
-          <div className='name'>
-            <Row>
-              <Col sm={2} ><h4 className='name'>Chicken Taquitos</h4></Col>
-              <Col sm={8} ><h4 className='descript'>Two flour tortillas stuffed with chicken and Monterey Jack cheese, rolledm and fried to a golden brown.  Topped with tomatoes, green onions, sour cream and guacamole.</h4></Col>
-              <Col sm={2} ><h4 className='price'>$9.75</h4></Col>
-            </Row>
-          </div>
 
-          <div className='name'>
-            <Row>
-              <Col sm={2} ><h4 className='name' style={{ fontSize: 19 }}>Quesadilo</h4></Col>
-              <Col sm={8} ><h4 className='descript'>Two soft flour tortilias stuffed with cheddar and Monteray Jack cheese, green onions, tomatoes, and your choice of chicken, beef, or shrdded beef. Served with sour cream and guacamole </h4></Col>
-              <Col sm={2} ><h4 className='price'>$9.75</h4></Col>
-            </Row>
-          </div>
-
-          <div className='name'>
-            <Row>
-              <Col sm={2} ><h4 className='name' style={{ fontSize: 19 }}>Vegitarian Nachos</h4></Col>
-              <Col sm={8} ><h4 className='descript'>Corn tortilla chips covered with pinto beans, cheese, tomatoes, onions, sour cream, and guacamole.</h4></Col>
-              <Col sm={2} ><h4 className='price'>$7.55</h4></Col>
-            </Row>
-          </div>
-
-          <div className='name'>
-            <Row>
-              <Col sm={2} ><h4 className='name'>Jalapeno Poppers</h4></Col>
-              <Col sm={8} ><h4 className='descript'>Cream cheese mounded high on half of a jallapeno popper. Covered with a delicious potato breading. Served with a hot sauce. </h4></Col>
-              <Col sm={2} ><h4 className='price'>$6.10</h4></Col>
-            </Row>
-          </div>
-
-          <div className='name'>
-            <Row>
-              <Col sm={2} ><h4 className='name' style={{ fontSize: 19 }}>Fajita Quesadilla</h4></Col>
-              <Col sm={8} ><h4 className='descript'>Cround beef nachos, chicken taquitos, picadillo taquitos, cheese quesadilla, jalapeno poppers.  Garnished with tomatoes, onions, sour cream and guacamole.</h4></Col>
-              <Col sm={2} ><h4 className='price'>$10.95</h4></Col>
-            </Row>
-          </div>
-
-          <div className='name'>
-            <Row>
-              <Col sm={2} ><h4 className='name'>Mexican Pizza</h4></Col>
-              <Col sm={8} ><h4 className='descript'>Crispy flour tortilla with choice of meat, refried beans, and cheese.  Garnished with tomatoes, onions, guacamole, and sour cream. </h4></Col>
-              <Col sm={2} ><h4 className='price'>$9.75</h4></Col>
-            </Row>
-          </div>
-
-          <div className='name'>
-            <Row>
-              <Col sm={2} ><h4 className='name'>El Caporal Sampler</h4></Col>
-              <Col sm={8} ><h4 className='descript'>Ground beef nachos, chicken taquitos, picadillo taquitos, cheese quesadilla, jalapeno poppers.  Garnished with tomatoes, onions, sour cream and guacamole.</h4></Col>
-              <Col sm={2} ><h4 className='price'>$13.75</h4></Col>
-            </Row>
-          </div>
-
-
-
-        </Container>
 
       </div>
 
