@@ -39,3 +39,9 @@ p { color: gold; }
   .carselPic { height: 180px; max-width: 85%; border-width: .35rem; }
   .carousel-control-prev, .carousel-control-next { width: 12%; }
 }
+
+.menu-photo-button { border: 0; background: transparent; padding: 0; cursor: pointer; max-width: 100%; }
+.menu-photo-button:focus-visible { outline: 3px solid #001aff; }
+.selected-menu-item { margin: 1rem auto; padding: 1rem; max-width: 650px; background: #fff; color: #222; border: 4px solid magenta; border-radius: 12px; }
+.selected-menu-item p { color: #222; }
+.selected-menu-item button { margin-top: 1rem; padding: .65rem 1rem; background: magenta; color: #fff; border: 0; border-radius: 8px; }
